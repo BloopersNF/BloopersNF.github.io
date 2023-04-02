@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #646881;
+    /*
+    background-image: url('ray2.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top;
+    background-size: 100vh;
+*/
+
+}
+#section1{
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+#wave{
+    position: absolute;
+    width: 80vw;
+    transform: rotate(90deg);
+    right: 0;
+}
+#image{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+#ray{
+    width: 45vw;
+    height: 48.5vw;
+}
+#text{
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    width: 50%;
+    margin-left: 5px;
+}
+#transition{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}

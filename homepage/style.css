@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color: #646881;
+}
+
+a:hover{
+    color: #F2F4FF;
+    transition: 800ms;
+}
+ul{
+    list-style: none;
+    color: white;
+}
+.navbar{
+    background-color: #0D0106;
+    padding: 10px;
+    font-size: 1.3vw;
+}
+.container{
+    align-items: end;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+iframe{
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.coluna{
+    position: relative;
+    flex: 1;
+	display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+#page1{
+    height: 50vw;
+}
+#github{
+    height: 50vw;
+}
+#curiosidades{
+    height: 50vw;
+}
+#profunda{
+    height: 50vw;
+}
+section{
+    margin-bottom: -4px;
+}

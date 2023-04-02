@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+#baleia{
+    border-radius: 50%;
+    width: 30vw;
+    border: 15px solid #000;
+}
+#text{
+    width: 50vw;
+    font-size: 2vw;
+}
+.wave{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    z-index: -1;
+}
